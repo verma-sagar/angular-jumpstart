@@ -1,4 +1,5 @@
-<div id="bg" class="container-fluid p-5">
+<div class="bg img-fluid">
+<div class="container-fluid p-5">
   <span>
     <h3 class="text-center">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
@@ -8,16 +9,19 @@
   </span>
   <br>
   <div class="container">
-    <div class="row">
-      <div class="main form-group">
-  <div>
-    <label for="Email">Email</label>
-    <input id="email" type="email" class="form-control" />
-  </div>
-
-  <div>
-    <label for="Pass">Password</label>
-    <input id="pass" type="password" class="form-control" />
-  </div>
+  <form>
+    <div class="main">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password</label>
+      <input type="password" class="form-control" id="pwd" name="pswd">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
 </div>
 </div>

@@ -1,4 +1,4 @@
-#bg {
+.bg {
     background-image: url("/assets/bg.jpg");
     background-size: cover;
     height: 570px;
@@ -11,7 +11,7 @@ h1 {
 }
 
 div.main {
-  width: 700px;
+  width: 306px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -74,3 +74,9 @@ input[type=password]:focus {
 {
   height: auto;
 }
+.btn-primary {
+    color: #080808;
+    background-color: #282b2f2e;
+    border-color: #727475;
+    margin: 0px 115px 0px 115px;
+  }
